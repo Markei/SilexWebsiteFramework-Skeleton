@@ -1,0 +1,22 @@
+# Project
+temp/
+env.php
+config/
+wwwroot/media/cache/
+wwwroot/media/src/
+
+# Composer
+vendor/
+composer.phar
+
+# IDE
+.buildpath
+.settings/
+.project
+
+# OS files
+__macosx
+__MACOSX
+Thumbs.db
+.DS_Store
+desktop.ini

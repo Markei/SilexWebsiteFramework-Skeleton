@@ -1,0 +1,15 @@
+{
+    "name": "markei/silexwebsiteframework-skeleton",
+    "description": "Skeleton project",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "markei/silexwebsiteframework": "^1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

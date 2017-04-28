@@ -1,0 +1,12 @@
+{% extends 'silex-website-framework-base.html.twig' %}
+
+{% block title %}Hello world{% endblock %}
+
+{% block header %}Hello world{% endblock %}
+
+{% block document %}
+    <p class="lead">ready to go!</p>
+    <p><a href="/about">About page</a> <a href="/info">Show PHP version</a></p>
+    <p>Image test:</p>
+    <p><img src="{{ '/media/src/test.png'|thumbnail('50x50') }}" alt="test image"></p>
+{% endblock %}

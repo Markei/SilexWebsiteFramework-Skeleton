@@ -7,6 +7,7 @@ wwwroot/media/src/
 
 # Composer
 vendor/
+wwwroot/assets/vendor/
 composer.phar
 
 # IDE

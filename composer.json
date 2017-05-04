@@ -14,13 +14,13 @@
         }
     },
     "minimum-stability": "stable",
-    "script": {
+    "scripts": {
         "post-install-cmd": ["@install-frontend-vendors"],
         "post-update-cmd": ["@install-frontend-vendors"],
         "install-frontend-vendors": ["Markei\\FileSystemOperations\\Composer::run"]
     },
     "extra": {
-        "MarkeiFileSystemOperations": [
+        "markei-filesystemoperations": [
             ["mkdir", "wwwroot/assets/vendor/jquery"],
             ["copy", "vendor/components/jquery/jquery.js", "wwwroot/assets/vendor/jquery/jquery.js"],
             ["copy", "vendor/components/jquery/jquery.min.js", "wwwroot/assets/vendor/jquery/jquery.min.js"]

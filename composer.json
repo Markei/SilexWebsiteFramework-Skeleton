@@ -4,12 +4,26 @@
     "type": "project",
     "license": "MIT",
     "require": {
-        "markei/silexwebsiteframework": "^1.0"
+        "markei/silexwebsiteframework": "^1.0",
+        "markei/filesystemoperations": "^1.0",
+        "components/jquery": "^3.2"
     },
     "autoload": {
         "psr-0": {
             "": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "script": {
+        "post-install-cmd": ["@install-frontend-vendors"],
+        "post-update-cmd": ["@install-frontend-vendors"],
+        "install-frontend-vendors": ["Markei\\FileSystemOperations\\Composer::run"]
+    },
+    "extra": {
+        "MarkeiFileSystemOperations": [
+            ["mkdir", "wwwroot/assets/vendor/jquery"],
+            ["copy", "vendor/components/jquery/jquery.js", "wwwroot/assets/vendor/jquery/jquery.js"],
+            ["copy", "vendor/components/jquery/jquery.min.js", "wwwroot/assets/vendor/jquery/jquery.min.js"]
+        ]
+    }
 }

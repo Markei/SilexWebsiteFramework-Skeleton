@@ -144,16 +144,16 @@
         },
         {
             "name": "markei/silexwebsiteframework",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Markei/SilexWebsiteFramework.git",
-                "reference": "1e30baa3336f89be2b294c1f9da85b1fc4a25dea"
+                "reference": "cbbf72cfd900bd4aa6a53109077853edee455585"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Markei/SilexWebsiteFramework/zipball/1e30baa3336f89be2b294c1f9da85b1fc4a25dea",
-                "reference": "1e30baa3336f89be2b294c1f9da85b1fc4a25dea",
+                "url": "https://api.github.com/repos/Markei/SilexWebsiteFramework/zipball/cbbf72cfd900bd4aa6a53109077853edee455585",
+                "reference": "cbbf72cfd900bd4aa6a53109077853edee455585",
                 "shasum": ""
             },
             "require": {
@@ -186,7 +186,7 @@
                 }
             ],
             "description": "Quickstart building sites with Silex, Twig, Symfony Forms, Imagine and Swiftmailer",
-            "time": "2017-05-04 14:56:07"
+            "time": "2017-05-06 08:53:42"
         },
         {
             "name": "paragonie/random_compat",
